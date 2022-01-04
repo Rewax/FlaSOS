@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Flashlight">
+
+    <LinearLayout
+        android:id="@+id/ctrls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/flashOnBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ON"
+            android:layout_marginRight="15dp"/>
+
+
+        <Button
+            android:id="@+id/flashOffBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OFF"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
